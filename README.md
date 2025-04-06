@@ -22,6 +22,7 @@ sudo apt install libpcap-dev
 # 编译
 g++ main.cpp FalsifyPackets.cpp ProtocolHeaders.cpp -o packet_tool -lpcap
 ```
+- 在Windows系统上，可以通过DEV-C++及其衍生IDE进行编译
 ### 运行（可能需要管理员权限）
 - Linux
 ```bash
